@@ -9,15 +9,16 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.AppModule = void 0;
 const common_1 = require("@nestjs/common");
 const graphql_1 = require("@nestjs/graphql");
-const path_1 = require("path");
+const restaurants_module_1 = require("./restaurants/restaurants.module");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
     common_1.Module({
         imports: [
             graphql_1.GraphQLModule.forRoot({
-                autoSchemaFile: path_1.join(process.cwd(), 'src/schema.gql'),
+                autoSchemaFile: true,
             }),
+            restaurants_module_1.RestaurantsModule,
         ],
         controllers: [],
         providers: [],
