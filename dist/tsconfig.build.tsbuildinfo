@@ -3715,9 +3715,19 @@
         "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f",
         "affectsGlobalScope": false
       },
+      "../src/restaurants/entities/restaurant.entity.ts": {
+        "version": "053e2f2cedd704a346b91696000ab8d5b585ac4a5bd191f3ad055daa4a543510",
+        "signature": "c6807c2c272d4a338ea8270daaab22dda69696813ce183a9f37d8743a6c61603",
+        "affectsGlobalScope": false
+      },
+      "../src/restaurants/dtos/create-restaurant.dto.ts": {
+        "version": "9f791b00ef59940863e5b395024d7d76179c0c0a052b3f0d116f235b39c2ef96",
+        "signature": "6e4112a7b9bb12087a5617fad976809bb0b29a0814bcee944537483cb05de1af",
+        "affectsGlobalScope": false
+      },
       "../src/restaurants/restaurants.resolver.ts": {
-        "version": "0d92ea67d47d9ffcd57c052625eac81b5a234606331bc71a727652d669c129d3",
-        "signature": "fac02fe04f5f1f436a46cf8844e7154cefbe56b4f1fa997106b6ef306f3b9c95",
+        "version": "f4b23f93b2199cdaea46678eb05b7f2a8e2ba3fa45ffee4555b4d67b4e81747f",
+        "signature": "d8fe2c09a7a6b77cdfcb88c53b6b5a76ae3ac541f2859b225351b4b8129e88fd",
         "affectsGlobalScope": false
       },
       "../src/restaurants/restaurants.module.ts": {
@@ -7187,12 +7197,20 @@
         "../node_modules/@nestjs/core/index.d.ts",
         "../src/app.module.ts"
       ],
+      "../src/restaurants/dtos/create-restaurant.dto.ts": [
+        "../node_modules/@nestjs/graphql/index.d.ts"
+      ],
+      "../src/restaurants/entities/restaurant.entity.ts": [
+        "../node_modules/@nestjs/graphql/index.d.ts"
+      ],
       "../src/restaurants/restaurants.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../src/restaurants/restaurants.resolver.ts"
       ],
       "../src/restaurants/restaurants.resolver.ts": [
-        "../node_modules/@nestjs/graphql/index.d.ts"
+        "../node_modules/@nestjs/graphql/index.d.ts",
+        "../src/restaurants/dtos/create-restaurant.dto.ts",
+        "../src/restaurants/entities/restaurant.entity.ts"
       ]
     },
     "exportedModulesMap": {
@@ -10328,6 +10346,10 @@
       ],
       "../node_modules/zen-observable-ts/lib/zenobservable.d.ts": [
         "../node_modules/zen-observable-ts/lib/types.d.ts"
+      ],
+      "../src/restaurants/restaurants.resolver.ts": [
+        "../src/restaurants/dtos/create-restaurant.dto.ts",
+        "../src/restaurants/entities/restaurant.entity.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -11134,6 +11156,8 @@
       "../node_modules/zen-observable-ts/lib/zenobservable.d.ts",
       "../src/app.module.ts",
       "../src/main.ts",
+      "../src/restaurants/dtos/create-restaurant.dto.ts",
+      "../src/restaurants/entities/restaurant.entity.ts",
       "../src/restaurants/restaurants.module.ts",
       "../src/restaurants/restaurants.resolver.ts"
     ]
