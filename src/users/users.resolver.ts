@@ -10,7 +10,8 @@ import { UseGuards } from '@nestjs/common';
 import { AuthGuard } from 'src/auth/auth.guard';
 import { AuthUser } from 'src/auth/auth-user.decorator';
 import { UserProfileInput, UserProfileOutput } from './dtos/user-profile.dto';
-import { EditProfileOutput } from './dtos/edit-profile.dto';
+import { EditProfileOutput, EditProfileInput } from './dtos/edit-profile.dto';
+import { VerifyEmailOutput, VerifyEmailInput } from './dtos/verify-email.dto';
 
 @Resolver((of) => User)
 export class UsersResolver {
@@ -80,5 +81,37 @@ export class UsersResolver {
 
   @UseGuards(AuthGuard)
   @Mutation((returns) => EditProfileOutput)
-  async editProfile(@AuthUser() authUser: User) {}
+  async editProfile(
+    @AuthUser() authUser: User,
+    @Args('input') EditProfileInput: EditProfileInput,
+  ): Promise<EditProfileOutput> {
+    try {
+      await this.usersService.editProfile(authUser.id, EditProfileInput);
+      return {
+        ok: true,
+      };
+    } catch (error) {
+      return {
+        ok: false,
+        error,
+      };
+    }
+  }
+
+  @Mutation((returns) => VerifyEmailOutput)
+  async verifyEmail(
+    @Args('input') { code }: VerifyEmailInput,
+  ): Promise<VerifyEmailOutput> {
+    try {
+      await this.usersService.verifyEmail(code);
+      return {
+        ok: true,
+      };
+    } catch (error) {
+      return {
+        ok: false,
+        error,
+      };
+    }
+  }
 }

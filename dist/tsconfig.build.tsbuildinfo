@@ -5741,8 +5741,8 @@
         "affectsGlobalScope": false
       },
       "../src/users/entities/user.entity.ts": {
-        "version": "5823a2b4858d34a07dd03dc975e92c47ad5f9df9a1a07a156103db9f159404bd",
-        "signature": "4c37ab22752aa081259befc86982937580744e32a2343e199a617a2fb64076ba",
+        "version": "bb1321ee2c8294c6c21355ef20d870f833f92fb4ff338d12856e672fcfc658be",
+        "signature": "18cbfd0fc96ebfb1d9b563843944215c785bd98cee3fd5399cb3c8650ec1e53e",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/jsonwebtoken/index.d.ts": {
@@ -5751,18 +5751,18 @@
         "affectsGlobalScope": false
       },
       "../src/common/dtos/output.dto.ts": {
-        "version": "e6558f6dc95f826e86e54f7cd59f5112fc0e535e81910ecf172a9fb7695b4d07",
-        "signature": "5a8c143ad0266115369e2c16e4cf89f2972ccb6ad8779760ab22f6a7ae8dd5bf",
+        "version": "53ab166e708368f09df876323720e08cc995fe616524c9905ca2203c4908a2b3",
+        "signature": "83b62ec1a108b77c82bbf7b83813c6582be6819aabd8de9b821563f7d91e3fbb",
         "affectsGlobalScope": false
       },
       "../src/users/dtos/create-account.dto.ts": {
-        "version": "227eaf1b1fc44312205df42076b998f491a3ce3a74429c4c0a986dde2a3c459c",
-        "signature": "d41ffb1c46f352e89eaac45e346b0028e7e8c256e57bebbc56944c8784d47a2d",
+        "version": "85f136299c7814fa26a925c0d1368019304130f108e9495d4c870bf7c6bc9e21",
+        "signature": "9a98dc30cc2e7b490d2b1ca7a662ba2c735df2ebea3fefeb1a41b53d4906b10f",
         "affectsGlobalScope": false
       },
       "../src/users/dtos/login-dto.ts": {
-        "version": "2e592a06539fdc7493e72bed4000608e499f9fe02a007eb1a09ac3ce94b82c83",
-        "signature": "cafb06fe041de628712f76e6880fee647844968434e378adbdb791b925056451",
+        "version": "c3f30664352b847ae508e57e56cac1969d0447db838a7c27d82b910c822e6be6",
+        "signature": "4e4b541895a2e2bdec27d5271786cb49ada21404cca89143b2e663abc66c9fe3",
         "affectsGlobalScope": false
       },
       "../src/jwt/jwt.interfaces.ts": {
@@ -5780,9 +5780,19 @@
         "signature": "932e647645a613c4cf176354c9ac8fd477a8fcf9bab62d081711dfd34ffffdc8",
         "affectsGlobalScope": false
       },
+      "../src/users/dtos/edit-profile.dto.ts": {
+        "version": "3467707e87c01bef7399a0bb9fa4b61249d3acfea33154b8160fffbca73be718",
+        "signature": "cb022a4f595afa5567b5b40098904c0f3645d955d2d4545a1a0cdc28e8a1ef35",
+        "affectsGlobalScope": false
+      },
+      "../src/users/entities/verification.entity.ts": {
+        "version": "9861d090587576f5bd9bf1600ca1423f7f87c5661b31d0fd51d9aeb4a405505b",
+        "signature": "da6f79977d480f1bb7713ea507c829741779e6452a491ace8e0a474263d3f2a8",
+        "affectsGlobalScope": false
+      },
       "../src/users/users.service.ts": {
-        "version": "8a2299d87dd5597fa1f0a7e8731f85708b86a6c0ae7b1ff1b9ef60db13a8d0f6",
-        "signature": "8447acb27fd02ff9148b123a4cbf439db750eb82955d734efdf38933f5b8715e",
+        "version": "db4dbb74178dbbd4644eb3021da0e451840083c51956e5a950e714fd0493b4d0",
+        "signature": "20743fbf2093ce1e1f05b4bbc519fd73bd7c318f190b2281dc089a69d05c555b",
         "affectsGlobalScope": false
       },
       "../src/auth/auth.guard.ts": {
@@ -5796,22 +5806,22 @@
         "affectsGlobalScope": false
       },
       "../src/users/dtos/user-profile.dto.ts": {
-        "version": "e4459691b74b7fd03bf75db63c37c707eea62a2721cc9dce1847372698f1c243",
-        "signature": "28e0469affc6d59952e2da4428f4469745da530303c0c62a58a313496547eda1",
+        "version": "b79597632f2f1d450f1dccc7c5e823d47f7c2e93511762d1e494bb82f9705cc1",
+        "signature": "82c4b73c32ca9bdba57ba90be70cc12af2f2283e356b15f238d6a67152e28895",
         "affectsGlobalScope": false
       },
-      "../src/users/dtos/edit-profile.dto.ts": {
-        "version": "5eca268ad8aaf18f01680eca36cedccce584201dfd61ec34d20b9d3191e533f4",
-        "signature": "77497e9ce686853ca0163b7069b0a29ca7537b729de26c6bb2dcbc5445df6f3d",
+      "../src/users/dtos/verify-email.dto.ts": {
+        "version": "dc5c6011b01f2eae18c74901d4798fd904576fec16ce414f412cd18c23933d26",
+        "signature": "31f27c54c0b967743c03c465fe9f4d9806cd54ee7e529ea149dea492aac29055",
         "affectsGlobalScope": false
       },
       "../src/users/users.resolver.ts": {
-        "version": "b3d9283d25b18070f951cf4f2aadc0491dac00d48310b49fa60a2be58eff6497",
-        "signature": "d16b8da8b817fc7ac1b5d2941520c61ee2d4a471e1faacf42435d56351631fbf",
+        "version": "c7d625b26db8f280d10f49c4de288ecb0d8748fdc9c702e8f0cf6f8bd81c9877",
+        "signature": "15dbfa1fefce5ab26cab8883329a745cef5fd23f964db4e7ea90c1abf31bc3ba",
         "affectsGlobalScope": false
       },
       "../src/users/users.module.ts": {
-        "version": "0c0c92778c8d92476ac90c75312e1a79b574a5a060b09eb9c999ca33ad0be6a8",
+        "version": "8b4dab5e682eac19114d7565c2c914932906362f2552437b1df72b13d62c2c4f",
         "signature": "aa1725e38b5a0b4009f6a74f296f173e7926c119a60454dbd2e523861735df69",
         "affectsGlobalScope": false
       },
@@ -5836,7 +5846,7 @@
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
-        "version": "ca143dbb0ca7eb5aba7563ed78cb569ae795511bf72acc45f356f05be3095a7b",
+        "version": "7963f2806ca68ab4a436612a5fb59901c251c92e5b5cb6d3bff25a1d3e15117c",
         "signature": "c5d8d8d09bab9c1856515cc770847e363c0b18db26dc3e48f4c5c883c9cff7ff",
         "affectsGlobalScope": false
       },
@@ -10974,6 +10984,7 @@
         "../src/jwt/jwt.middleware.ts",
         "../src/jwt/jwt.module.ts",
         "../src/users/entities/user.entity.ts",
+        "../src/users/entities/verification.entity.ts",
         "../src/users/users.module.ts"
       ],
       "../src/auth/auth-user.decorator.ts": [
@@ -11063,7 +11074,8 @@
       ],
       "../src/users/dtos/edit-profile.dto.ts": [
         "../node_modules/@nestjs/graphql/index.d.ts",
-        "../src/common/dtos/output.dto.ts"
+        "../src/common/dtos/output.dto.ts",
+        "../src/users/entities/user.entity.ts"
       ],
       "../src/users/dtos/login-dto.ts": [
         "../node_modules/@nestjs/graphql/index.d.ts",
@@ -11075,6 +11087,11 @@
         "../src/common/dtos/output.dto.ts",
         "../src/users/entities/user.entity.ts"
       ],
+      "../src/users/dtos/verify-email.dto.ts": [
+        "../node_modules/@nestjs/graphql/index.d.ts",
+        "../src/common/dtos/output.dto.ts",
+        "../src/users/entities/verification.entity.ts"
+      ],
       "../src/users/entities/user.entity.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/graphql/index.d.ts",
@@ -11083,10 +11100,17 @@
         "../node_modules/typeorm/index.d.ts",
         "../src/common/entities/core.entity.ts"
       ],
+      "../src/users/entities/verification.entity.ts": [
+        "../node_modules/@nestjs/graphql/index.d.ts",
+        "../node_modules/typeorm/index.d.ts",
+        "../src/common/entities/core.entity.ts",
+        "../src/users/entities/user.entity.ts"
+      ],
       "../src/users/users.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/typeorm/index.d.ts",
         "../src/users/entities/user.entity.ts",
+        "../src/users/entities/verification.entity.ts",
         "../src/users/users.resolver.ts",
         "../src/users/users.service.ts"
       ],
@@ -11099,6 +11123,7 @@
         "../src/users/dtos/edit-profile.dto.ts",
         "../src/users/dtos/login-dto.ts",
         "../src/users/dtos/user-profile.dto.ts",
+        "../src/users/dtos/verify-email.dto.ts",
         "../src/users/entities/user.entity.ts",
         "../src/users/users.service.ts"
       ],
@@ -11110,8 +11135,10 @@
         "../node_modules/typeorm/index.d.ts",
         "../src/jwt/jwt.service.ts",
         "../src/users/dtos/create-account.dto.ts",
+        "../src/users/dtos/edit-profile.dto.ts",
         "../src/users/dtos/login-dto.ts",
-        "../src/users/entities/user.entity.ts"
+        "../src/users/entities/user.entity.ts",
+        "../src/users/entities/verification.entity.ts"
       ]
     },
     "exportedModulesMap": {
@@ -15939,7 +15966,9 @@
         "../src/users/entities/user.entity.ts"
       ],
       "../src/users/dtos/edit-profile.dto.ts": [
-        "../src/common/dtos/output.dto.ts"
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/common/dtos/output.dto.ts",
+        "../src/users/entities/user.entity.ts"
       ],
       "../src/users/dtos/login-dto.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -15950,13 +15979,24 @@
         "../src/common/dtos/output.dto.ts",
         "../src/users/entities/user.entity.ts"
       ],
+      "../src/users/dtos/verify-email.dto.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/common/dtos/output.dto.ts",
+        "../src/users/entities/verification.entity.ts"
+      ],
       "../src/users/entities/user.entity.ts": [
         "../src/common/entities/core.entity.ts"
       ],
+      "../src/users/entities/verification.entity.ts": [
+        "../src/common/entities/core.entity.ts",
+        "../src/users/entities/user.entity.ts"
+      ],
       "../src/users/users.resolver.ts": [
         "../src/users/dtos/create-account.dto.ts",
+        "../src/users/dtos/edit-profile.dto.ts",
         "../src/users/dtos/login-dto.ts",
         "../src/users/dtos/user-profile.dto.ts",
+        "../src/users/dtos/verify-email.dto.ts",
         "../src/users/entities/user.entity.ts",
         "../src/users/users.service.ts"
       ],
@@ -15965,8 +16005,10 @@
         "../node_modules/typeorm/index.d.ts",
         "../src/jwt/jwt.service.ts",
         "../src/users/dtos/create-account.dto.ts",
+        "../src/users/dtos/edit-profile.dto.ts",
         "../src/users/dtos/login-dto.ts",
-        "../src/users/entities/user.entity.ts"
+        "../src/users/entities/user.entity.ts",
+        "../src/users/entities/verification.entity.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -17199,7 +17241,9 @@
       "../src/users/dtos/edit-profile.dto.ts",
       "../src/users/dtos/login-dto.ts",
       "../src/users/dtos/user-profile.dto.ts",
+      "../src/users/dtos/verify-email.dto.ts",
       "../src/users/entities/user.entity.ts",
+      "../src/users/entities/verification.entity.ts",
       "../src/users/users.module.ts",
       "../src/users/users.resolver.ts",
       "../src/users/users.service.ts"
