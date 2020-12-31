@@ -5901,12 +5901,12 @@
         "affectsGlobalScope": false
       },
       "../src/mail/mail.service.ts": {
-        "version": "33fdc47c37c7d848aedb6926df8ca90a59be98eca7470aad5fd419812584c782",
-        "signature": "e93faffccc88b40324fb26fd60ebe9a80368c4a9a58207cbd7ab841423b5f81c",
+        "version": "160cb804de06c56e5951c922067cdfb84f17210b49c247129350ac7c65aab457",
+        "signature": "96ca2f65462b2bb873147ec4abfcd50d6cf428b805ffda12f06b6f4997654319",
         "affectsGlobalScope": false
       },
       "../src/users/users.service.ts": {
-        "version": "25b9c0c4a4e5cdc5f363b51b096bc47a5253204167a069e009928083c8a49974",
+        "version": "da0707b4fd731baff9ac0e101493da1adbbef2c35fa3fbdbc9b5a95f7c90c2d5",
         "signature": "595735c1eaeae23fdaf28b937902c5a5cece7b011cb140a0286fcbbc0c362b5d",
         "affectsGlobalScope": false
       },
