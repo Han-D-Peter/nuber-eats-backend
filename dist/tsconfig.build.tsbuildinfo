@@ -5906,17 +5906,17 @@
         "affectsGlobalScope": false
       },
       "../src/users/users.service.ts": {
-        "version": "da0707b4fd731baff9ac0e101493da1adbbef2c35fa3fbdbc9b5a95f7c90c2d5",
-        "signature": "595735c1eaeae23fdaf28b937902c5a5cece7b011cb140a0286fcbbc0c362b5d",
+        "version": "286871ea833facdc38b5f05ec5786375e784cc90580e4d84d373a0fb40552879",
+        "signature": "c82c29ef7332469eafee6ff30ba8f06f31f0bc41c90dc4f6f5834249ebc83792",
         "affectsGlobalScope": false
       },
       "../src/users/users.resolver.ts": {
-        "version": "11974cb8adc0001b4817715bdd16952f451cea8d6b4d588f0a666c4d13ae2194",
-        "signature": "be65e1b420ff24d605d02a2600a8cbcfe8b1dd1757fe681fee437005223697c5",
+        "version": "88dae1446ae4e1b124a0f97e3c7b88defb3f889a2efa79ccef30ebdad85e632c",
+        "signature": "6174e48e0485e1f9b19667358b2b90cc0a117a2a36c6bf3c3daf2e41b3d8dbab",
         "affectsGlobalScope": false
       },
       "../src/users/users.module.ts": {
-        "version": "7baabc57ddcdb1d04543799ac1e17fbe8f4287c42889cf6d9225362c85d6ce74",
+        "version": "8972fee2b9622fe8f9647fc241114d1d29644e5780c8abfa8673100c31153b64",
         "signature": "aa1725e38b5a0b4009f6a74f296f173e7926c119a60454dbd2e523861735df69",
         "affectsGlobalScope": false
       },
@@ -5931,8 +5931,8 @@
         "affectsGlobalScope": false
       },
       "../src/jwt/jwt.middleware.ts": {
-        "version": "df78b303cadab92ef55fa6e6babd38e285d9809aa6b5247a6e6a9cffacbf532a",
-        "signature": "518d685331f3758145866c4343c8ebd9d64ef72f5873c5d2b7014213fe85ff26",
+        "version": "7f4cc8157f853084f0903c98e7e8d712e893249219903ffd10f4e67bece60d4f",
+        "signature": "c23264420f343b87b5a07326af5414dc4de80a2fa412542922619b42426d7f90",
         "affectsGlobalScope": false
       },
       "../src/auth/auth.module.ts": {
@@ -5946,7 +5946,7 @@
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
-        "version": "569f70232af9faf25ec8f26692e856a49fd7a4923186c205cb981331ed67c9e9",
+        "version": "36d438df8ef381029cae36532e5a9c5aad9ef07ae61141fa2fc92ecae13f59d7",
         "signature": "c5d8d8d09bab9c1856515cc770847e363c0b18db26dc3e48f4c5c883c9cff7ff",
         "affectsGlobalScope": false
       },

@@ -10,12 +10,12 @@ import { EditProfileInput, EditProfileOutput } from './dtos/edit-profile.dto';
 import { UserProfileInput, UserProfileOutput } from './dtos/user-profile.dto';
 import { VerifyEmailInput, VerifyEmailOutput } from './dtos/verify-email.dto';
 import { User } from './entities/user.entity';
-import { UsersService } from './users.service';
+import { UserService } from './users.service';
 import { LoginOutput, LoginInput } from './dtos/login-dto';
 
 @Resolver((of) => User)
 export class UserResolver {
-  constructor(private readonly usersService: UsersService) {}
+  constructor(private readonly usersService: UserService) {}
 
   @Mutation((returns) => CreateAccountOutput)
   async createAccount(
@@ -34,7 +34,6 @@ export class UserResolver {
   me(@AuthUser() authUser: User) {
     return authUser;
   }
-
   @UseGuards(AuthGuard)
   @Query((returns) => UserProfileOutput)
   async userProfile(
