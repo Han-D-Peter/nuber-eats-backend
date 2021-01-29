@@ -5761,7 +5761,7 @@
         "affectsGlobalScope": false
       },
       "../src/restaurants/entities/restaurant.entity.ts": {
-        "version": "23a968aa29ebe37f1e95e853c75e623e271b739a86194486337c6fc26b086b0e",
+        "version": "60d7d832b6f79a117812755ec152c2f5e14766757f9174a7ac2944a7ba378f25",
         "signature": "5188a3dac8d74813199e95e303f3bd5e1054d457c850f229613d1a6df75123bd",
         "affectsGlobalScope": false
       },
@@ -6031,8 +6031,8 @@
         "affectsGlobalScope": false
       },
       "../src/restaurants/dtos/category.dto.ts": {
-        "version": "df34f7ec6bb262958cf560c81e849866bf74a9ff86dec04bab7aed5a1fcea658",
-        "signature": "7ad8f70ad16f02c7c97fb1eaab8fac1f465b51cdcdd9c5e5a22a551c016aef23",
+        "version": "a78efe8583c805d10fdb83ce7df26413fb6301176ecf3e978a1129e073966fe6",
+        "signature": "f2b17b19045cf96396b4b20df1b805d9199862e1f7f511a047a6687e9885c4bf",
         "affectsGlobalScope": false
       },
       "../src/restaurants/dtos/restaurants.dto.ts": {
@@ -6066,7 +6066,7 @@
         "affectsGlobalScope": false
       },
       "../src/restaurants/restaurants.service.ts": {
-        "version": "2dbc1e0f188ffe5a25a106e940a027539b7b834591f5d7008f8527088625e418",
+        "version": "ae7455e1031b36665bc53c1e683ed1d9cd2d303df4c548609b9f5bf64b8be042",
         "signature": "8a1430afe305568394d809a352c65630885fca199c460d1710ff799e74282287",
         "affectsGlobalScope": false
       },
@@ -11651,7 +11651,8 @@
         "../node_modules/@nestjs/graphql/index.d.ts",
         "../src/common/dtos/output.dto.ts",
         "../src/common/dtos/pagination.dto.ts",
-        "../src/restaurants/entities/category.entity.ts"
+        "../src/restaurants/entities/category.entity.ts",
+        "../src/restaurants/entities/restaurant.entity.ts"
       ],
       "../src/restaurants/dtos/create-dish.dto.ts": [
         "../node_modules/@nestjs/graphql/index.d.ts",
@@ -16873,7 +16874,8 @@
       ],
       "../src/restaurants/dtos/category.dto.ts": [
         "../src/common/dtos/pagination.dto.ts",
-        "../src/restaurants/entities/category.entity.ts"
+        "../src/restaurants/entities/category.entity.ts",
+        "../src/restaurants/entities/restaurant.entity.ts"
       ],
       "../src/restaurants/dtos/create-dish.dto.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
