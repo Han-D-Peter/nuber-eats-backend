@@ -6205,8 +6205,13 @@
         "signature": "b5d79b3962652c8a00cae65fc6c1fd79560ca20cf6d99762f4bd768b977cbfc9",
         "affectsGlobalScope": false
       },
+      "../src/payments/payments.controller.ts": {
+        "version": "99a1ba373cffd2037b1d12b7f6275708e01192833178064df7cccd2fec8da72a",
+        "signature": "82949ba84455ac0d095976dee0778ede54af16ae9c7edaa20d9427a98c5a7220",
+        "affectsGlobalScope": false
+      },
       "../src/payments/payments.module.ts": {
-        "version": "2e84b379a899db18b2ef734fee2fb8ec6bbc4c93dc8aa015efbdf27a997a302e",
+        "version": "6ea78584460c7c5da79a8e1c6e4aff7ebcb8309be95cd59e5bd03b09192a8728",
         "signature": "b0a844f50b549a626630dc8d318bfbe6e4eb22db570ff19a952c56bb782c6370",
         "affectsGlobalScope": false
       },
@@ -15578,10 +15583,14 @@
         "../src/restaurants/entities/restaurant.entity.ts",
         "../src/users/entities/user.entity.ts"
       ],
+      "../src/payments/payments.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
       "../src/payments/payments.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/typeorm/index.d.ts",
         "../src/payments/entities/payment.entity.ts",
+        "../src/payments/payments.controller.ts",
         "../src/payments/payments.resolver.ts",
         "../src/payments/payments.service.ts",
         "../src/restaurants/entities/restaurant.entity.ts"
@@ -24959,6 +24968,7 @@
       "../src/payments/dtos/create-payment.dto.ts",
       "../src/payments/dtos/get-payments.dto.ts",
       "../src/payments/entities/payment.entity.ts",
+      "../src/payments/payments.controller.ts",
       "../src/payments/payments.module.ts",
       "../src/payments/payments.resolver.ts",
       "../src/payments/payments.service.ts",
